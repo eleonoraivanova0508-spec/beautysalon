@@ -1,0 +1,475 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+}
+
+.overlay {
+    background:
+        linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)),
+        url("https://static.vecteezy.com/system/resources/previews/011/717/887/original/set-of-hairdressing-elements-seamless-pattern-of-doodle-icons-for-hair-care-illustration-background-wallpaper-vector.jpg");
+
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.custom-nav {
+    padding-top: 20px;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: gold !important;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.hero-text h1 {
+    font-size: 70px;
+    font-weight: bold;
+    max-width: 700px;
+}
+
+.hero-text p {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #ddd;
+}
+
+.btn-gold {
+    background: gold;
+    color: black;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.services-section {
+    padding: 80px 0;
+    background: #111;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 42px;
+    color: gold;
+}
+
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 25px;
+    padding-bottom: 20px;
+}
+
+.scroll-container::-webkit-scrollbar {
+    height: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background: gold;
+    border-radius: 20px;
+}
+
+.service-card {
+    min-width: 320px;
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    border-color: gold;
+}
+
+.service-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    color: gold;
+}
+
+.price {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.masters-section {
+    padding: 80px 0;
+    background: #161616;
+}
+
+.master-card {
+    background: #1c1c1c;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+.master-card:hover {
+    transform: scale(1.05);
+    border-color: gold;
+}
+
+.master-avatar {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid gold;
+    margin-bottom: 20px;
+}
+
+.master-card h3 {
+    color: gold;
+}
+
+.reviews-section {
+    padding: 90px 0;
+    background: #0f0f0f;
+}
+
+.review-card {
+    background: #1c1c1c;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #333;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.review-card:hover {
+    transform: translateY(-10px);
+    border-color: gold;
+}
+
+.review-top {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.review-avatar {
+    width: 60px;
+    height: 60px;
+    background: gold;
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.review-top h5 {
+    margin: 0;
+    color: white;
+}
+
+.stars {
+    color: gold;
+    font-size: 20px;
+}
+
+.review-text {
+    color: #ccc;
+    line-height: 1.7;
+}
+
+.auth-body {
+    background:
+        linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)),
+        url("https://static.vecteezy.com/system/resources/previews/011/717/887/original/set-of-hairdressing-elements-seamless-pattern-of-doodle-icons-for-hair-care-illustration-background-wallpaper-vector.jpg");
+
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.auth-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 500px;
+    background: rgba(20,20,20,0.95);
+    padding: 40px;
+    border-radius: 25px;
+    border: 1px solid #333;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgba(0,0,0,0.5);
+}
+
+.auth-title {
+    text-align: center;
+    color: gold;
+    margin-bottom: 30px;
+    font-size: 38px;
+}
+
+.auth-card input,
+.auth-card select,
+.auth-card textarea {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: 1px solid #444;
+    background: #111;
+    color: white;
+}
+
+.auth-card label {
+    margin-bottom: 8px;
+    color: #ddd;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-bottom: 25px;
+    color: gold;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.back-btn:hover {
+    color: white;
+}
+
+.auth-link {
+    text-align: center;
+    margin-top: 25px;
+    color: #bbb;
+}
+
+.auth-link a {
+    color: gold;
+    text-decoration: none;
+}
+
+.service-link {
+    text-decoration: none;
+}
+
+.service-link h3 {
+    color: gold;
+}
+
+.service-detail-card {
+    background: #1c1c1c;
+    padding: 40px;
+    border-radius: 25px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+.detail-image {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.master-avatar-detail {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid gold;
+    margin-bottom: 30px;
+}
+
+.profile-body {
+    background:
+        linear-gradient(rgba(0,0,0,0.82), rgba(0,0,0,0.9)),
+        url("https://static.vecteezy.com/system/resources/previews/011/717/887/original/set-of-hairdressing-elements-seamless-pattern-of-doodle-icons-for-hair-care-illustration-background-wallpaper-vector.jpg");
+
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.profile-overlay {
+    min-height: 100vh;
+}
+
+.profile-card {
+    background: rgba(20,20,20,0.95);
+    border-radius: 25px;
+    padding: 40px;
+    border: 1px solid #333;
+    backdrop-filter: blur(10px);
+}
+
+.profile-avatar {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 5px solid gold;
+    object-fit: cover;
+}
+
+.profile-name {
+    color: gold;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.profile-info {
+    font-size: 20px;
+    color: #ddd;
+}
+
+.appointment-card {
+    background: #1c1c1c;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #333;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.appointment-card:hover {
+    transform: translateY(-10px);
+    border-color: gold;
+}
+
+.appointment-card h3 {
+    color: gold;
+    margin-bottom: 20px;
+}
+
+.status-badge {
+    display: inline-block;
+    margin-top: 15px;
+    background: gold;
+    color: black;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.empty-card {
+    background: rgba(20,20,20,0.95);
+    padding: 50px;
+    border-radius: 25px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+.review-alert {
+    background: rgba(255,215,0,0.08);
+    border: 1px solid gold;
+    border-radius: 20px;
+    padding: 35px;
+    text-align: center;
+}
+
+.review-alert h3 {
+    color: gold;
+    margin-bottom: 15px;
+}
+
+.review-alert p {
+    color: #ddd;
+    margin-bottom: 20px;
+}
+.works-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 25px;
+    padding-bottom: 20px;
+}
+
+.work-card {
+    min-width: 320px;
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #333;
+}
+
+.work-image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.message-card {
+    background: #1c1c1c;
+    padding: 40px;
+    border-radius: 25px;
+    border: 1px solid #333;
+}
+
+.message-card textarea {
+    width: 100%;
+    background: #111;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.message-box {
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+}
+
+.client-msg {
+    border-left: 4px solid gold;
+}
+
+.master-msg {
+    border-left: 4px solid #00c853;
+    margin-left: 40px;
+}
+
+.message-box small {
+    color: #888;
+}
+.message-box {
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+}
+
+.admin-reply {
+    margin-top: 10px;
+    padding: 10px;
+    background: rgba(255,215,0,0.1);
+    border-left: 3px solid gold;
+}
